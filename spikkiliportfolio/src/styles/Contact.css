@@ -1,0 +1,29 @@
+.socialMediaIconsList li {
+  text-align: center;
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+
+  .socialMediaIconsList li a {
+  border-bottom: none;
+  }
+
+.socialMediaIconsList li {
+  width:30px;
+  height:30px;
+  margin-right: 20px;
+}
+
+.facebook {
+  background: url(../images/FacebookIcon.svg) no-repeat center;
+}
+
+.linkedIn {
+  background: url(../images/LinkedInIcon.svg) no-repeat center;
+}
+
+.instagram {
+  background: url(../images/InstaIcon.svg) no-repeat center;
+}
