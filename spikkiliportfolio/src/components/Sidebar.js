@@ -38,7 +38,7 @@ export default class Sidebar extends React.Component<Props> {
      </ListItemAvatar>
         <ListItemText>Projects</ListItemText>
       </ListItem>
-      <ListItem button onClick={() => this.props.activeSideBarCallBack(<Projects />)}>
+      <ListItem button onClick={() => this.props.activeSideBarCallBack(<Contact />)}>
       <ListItemAvatar>
        <Avatar>
          <ContactIcon />

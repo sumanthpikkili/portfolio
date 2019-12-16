@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Sidebar from './components/Sidebar';
 import About from './components/About';
-import Contact from './components/Contact';
+import SocialMedia from './components/SocialMedia';
 
 export default class Home extends React.Component {
   state = {
@@ -18,9 +18,9 @@ render() {
     <div className="home">
     <div className="header"> Sumanth Pikkili </div>
     <div className="socialMediaContainer">
-    <Contact />
+    <SocialMedia />
     </div>
-    <span class="topFadingLine"></span>
+    <span className="topFadingLine"></span>
       <Sidebar activeSideBarCallBack={this.sideBarCallBack} />
       {this.state.activeSideBarElement}
     </div>
