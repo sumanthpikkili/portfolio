@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import EmailSuccess from './EmailSuccess';
 import '../styles/Contact.css';
-
 
 export default class Contact extends Component {
   state = {
@@ -62,7 +62,8 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <form className="feedback-form" onSubmit={this.handleSubmit}>
+      <div>
+      {!this.state.formSubmitted && <form className="feedback-form" onSubmit={this.handleSubmit}>
         <h1>Contact Me</h1>
         <textarea
           className="textInput"
@@ -74,12 +75,14 @@ export default class Contact extends Component {
           value={this.state.feedback}
         />
         <div className="btn-group">
-          <button className="btn btn--cancel" onClick={this.handleCancel}>
-            Cancel
+          <button id ="formButton" onClick={this.handleCancel}>
+            Clear
           </button>
-          <input type="submit" value="Submit" className="btn btn--submit" />
+          <input type="submit" id="formButton" value="Shoot me an email" className="btn btn--submit" />
         </div>
-      </form>
+      </form>}
+      {this.state.formSubmitted && <EmailSuccess />}
+      </div>
     );
   }
 }
