@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spikkiliportfolio/static/css/main.4f5d8cdb.chunk.css",
+    "main.js": "/spikkiliportfolio/static/js/main.97589b76.chunk.js",
+    "main.js.map": "/spikkiliportfolio/static/js/main.97589b76.chunk.js.map",
+    "runtime-main.js": "/spikkiliportfolio/static/js/runtime-main.79e7624d.js",
+    "runtime-main.js.map": "/spikkiliportfolio/static/js/runtime-main.79e7624d.js.map",
+    "static/js/2.f6e6191b.chunk.js": "/spikkiliportfolio/static/js/2.f6e6191b.chunk.js",
+    "static/js/2.f6e6191b.chunk.js.map": "/spikkiliportfolio/static/js/2.f6e6191b.chunk.js.map",
+    "index.html": "/spikkiliportfolio/index.html",
+    "precache-manifest.6bd89323b8cac7bdba1fbffa56c0fedc.js": "/spikkiliportfolio/precache-manifest.6bd89323b8cac7bdba1fbffa56c0fedc.js",
+    "service-worker.js": "/spikkiliportfolio/service-worker.js",
+    "static/css/main.4f5d8cdb.chunk.css.map": "/spikkiliportfolio/static/css/main.4f5d8cdb.chunk.css.map",
+    "static/js/2.f6e6191b.chunk.js.LICENSE": "/spikkiliportfolio/static/js/2.f6e6191b.chunk.js.LICENSE",
+    "static/media/Contact.css": "/spikkiliportfolio/static/media/LinkedInIcon.406464ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79e7624d.js",
+    "static/js/2.f6e6191b.chunk.js",
+    "static/css/main.4f5d8cdb.chunk.css",
+    "static/js/main.97589b76.chunk.js"
+  ]
+}
