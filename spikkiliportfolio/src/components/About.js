@@ -15,7 +15,7 @@ render() {
       After my two year tenure at Accenture, I moved to the United States to pursue Masters in Computer Science at the University of Texas at Arlington. After graduation, I started working with Wolfram Research Inc. in Champaign, Illinois and have been working with them ever since. I also worked at the Wolfram UK office for almost an year.
       </p>
       <p>
-      I love traveling around the world and have visited more than 15 countries so far. In fact, my wife and I have recently started a travel handle on Instagram. Do follow us <a href="https://www.instagram.com/traveldiaries_by_cs/"> here</a> if interested.
+      I love traveling around the world and have visited more than 15 countries so far. In fact, my wife and I have recently started a travel handle on Instagram. Do follow us <a href="https://www.instagram.com/traveldiaries_by_cs/" target="_blank" rel="noopener noreferrer"> here</a> if interested.
       I am currently working on a travel blog that should be up anytime soon. My other hobbies include photography and cooking.
       </p>
       </div>
