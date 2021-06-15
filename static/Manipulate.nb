@@ -1,0 +1,24 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[
+{"Plot","[",RowBox[{RowBox[{"Sin","[",RowBox[{"x"," ",RowBox[{"(",RowBox[{"1"," ","+"," ",RowBox[
+{"a"," ","x"}]}],")"}]}],"]"}],","," ",RowBox[{"{",RowBox[{"x",","," ","0",","," ","6"}],"}"}]}],"]"}],","," ",RowBox[
+{"{",RowBox[{"a",","," ","0",","," ","2"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[1]:= ",
+ExpressionUUID -> "777ab411-b92b-4699-903d-13a13feba00a"],Cell[
+BoxData[TagBox[StyleBox[
+DynamicModuleBox[{Set[a$$,0],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[a$$],0,2}}],Set[Typeset`size$$,
+Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,
+True]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[a$$,0]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Plot[Sin[Times[x,Plus[1,Times[a$$,x]]]],{x,0,6}]],RuleDelayed[
+"Specifications",{{a$$,0,2}}],RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",
+{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,
+None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,
+RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,
+{Typeset`show$$,Typeset`bookmarkMode$$}]],"Manipulate",Deployed -> True,StripOnInput -> False],
+Manipulate`InterpretManipulate[1]],StandardForm],"Output",CellLabel -> "Out[1]= ",
+ExpressionUUID -> "ee3a6e6f-bf9e-4cb6-ac80-ecb5b77b2314"]},Open],ExpressionUUID -> "0368a917-fe85-47a7-8de0-7fd26ae057fb"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.2 for Wolfram Cloud refs/heads/master (June 15, 2021)"]
